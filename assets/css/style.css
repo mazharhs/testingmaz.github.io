@@ -155,7 +155,18 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+html {
+  font-family: var(--ff-poppins);
+  background-color: var(--smoky-black); /* Add this to ensure the background is black */
+}
+
+body {
+  background: url('image/wall-6.jpeg') no-repeat center center fixed;
+  background-size: 120% 120%;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
 
 
 
@@ -321,7 +332,7 @@ main {
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 435px; }
 
 .sidebar-info {
   position: relative;
